@@ -2,7 +2,7 @@
 //[3, 7, 23, 12] -> 19
 //[-4, -6, 89, 6] -> 0
 
-System.Console.WriteLine ($"Введите количество элементов массива: ");
+System.Console.WriteLine($"Введите количество элементов массива: ");
 int Elements = Convert.ToInt32(Console.ReadLine());
 
 int RandomNumbers(int Elements, int min, int max)
@@ -25,6 +25,6 @@ int RandomNumbers(int Elements, int min, int max)
     return sum;
 }
 
-int randomNumbers = RandomNumbers(Elements,1,100);
+int randomNumbers = RandomNumbers(Elements, 1, 100);
 
 System.Console.WriteLine($"\nСумма элементов, стоящих на нечётных позициях: {randomNumbers}");
