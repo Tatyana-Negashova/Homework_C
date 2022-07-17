@@ -7,9 +7,9 @@ Console.Write("Введите значение k1: ");
 double k1 = Convert.ToDouble(Console.ReadLine());
 Console.Write("Введите значение b2: ");
 double b2 = Convert.ToDouble(Console.ReadLine());
-Console.Write("Введите значение 2: ");
+Console.Write("Введите значение k2: ");
 double k2 = Convert.ToDouble(Console.ReadLine());
- 
+
 if (k1 == k2)
 {
     if (k1 == k2 && b1 == b2) Console.WriteLine($"Прямые совпадают");
